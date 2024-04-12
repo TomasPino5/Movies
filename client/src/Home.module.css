@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    justify-content: center;
+}
+
+.cardContainer {
+    border: 1px solid #ccc; 
+    height: 475px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.img {
+    width: 290px;
+    max-height: 400px;
+}
+
+.paginated {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
